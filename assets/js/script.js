@@ -10,8 +10,8 @@ function infoEntered(event) {
     // grab the saved event options
         // create variables to save user input and time 
 
-    var userData = userInputEl
-    var time = hourEl
+    var userData = userInputEl.val().trim();
+    var time = hourEl.val().trim();
 
     
     // save to localStorage
